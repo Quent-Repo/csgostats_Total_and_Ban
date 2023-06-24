@@ -1,0 +1,12 @@
+  {
+    "name": "csgostats total and ban percentage",
+    "author": "Grrkek",
+    "version": "1.0",
+    "description": "csgostats total and ban percentage",
+    "manifest_version": 3,
+    "content_scripts":[{
+	"matches":["*://csgostats.gg/player*"],
+	"js": ["info.js"],
+	"run_at": "document_end"
+	   }]
+  }
